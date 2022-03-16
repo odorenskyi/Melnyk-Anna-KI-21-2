@@ -15,9 +15,6 @@
 					<Add option="-g" />
 					<Add directory="../../prj" />
 				</Compiler>
-				<ResourceCompiler>
-					<Add directory="../../prj" />
-				</ResourceCompiler>
 				<Linker>
 					<Add option="-static-libstdc++" />
 					<Add option="-static-libgcc" />

@@ -1,35 +1,33 @@
 #include <iostream>
+#include <iomanip>
 #include <conio.h>
+#include <clocale>
 #include <math.h>
-#include "ModulesMelnik.h"
+#include "../ModulesMelnik.h"
 
 using namespace std;
 
-int main(){
-    float x[5] = { 1, 9, 43, 90, 10 };
-    float z[5] = { 8, 5, 84, 52, 3};
+int main()
+{
+    char *locale = setlocale(LC_ALL, "ukr");
+    float x[5] = { 1, 9, 7, 8, 10};
+    float z[5] = { 8, 5, 1, 2, 5};
 
-    double expectedResult[5] = { 76.7261, 101.871, 2437.25, 1814.23, 173.203 };
-    string testResult = "Failed";
-    double result = 0;
-    float  f = &s_calculation;
-
-    for (int i = 0; i < 5; i++) {
-        cout.precision(3);
-        cout.setf(std::ios::fixed);
-
-        if (result == expectedResult[i]) {
-            testResult = "Passed";
+    double expectedResult[5] = {76.7261, 101.871, 91.012, 44.1321, 92.1105};
+  for (short i = 0; i < 5; i++)
+    {
+        if (round(s_calculation(x[i], z[i])*10000)/10000.0 == expectedResult [i])
+        {
+            cout << s_calculation(x[i],  z[i]) << " = " << expectedResult[i] << endl;
+            cout << "Результат: #[" << i + 1 << "] PASSED\n";
         }
-        cout << "Test case #" << i + 1 << ": " << endl;
-        cout << "X = " << x << endl;
-        cout << "Z = " << z << endl;
-        cout << "Expected result: " << expectedResult[i] << endl;
-        cout << "The result obtained: " <<  f << endl;
-        cout << "Test result: " << testResult << endl << endl;
-        testResult = "Failed";
+        else
+        {
+            cout << s_calculation(x[i], z[i]) << " = " << expectedResult[i] << endl;
+            cout << "Результат: #[" << i + 1 << "] FAILED\n";
+        }
     }
-    getch();
+    _getch();
     return 0;
 }
 

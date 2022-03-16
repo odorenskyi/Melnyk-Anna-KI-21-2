@@ -13,11 +13,14 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="../../prj" />
 				</Compiler>
 				<Linker>
 					<Add option="-static-libstdc++" />
 					<Add option="-static-libgcc" />
 					<Add option="-static" />
+					<Add library="../ModulesMelnik/bin/Debug/libModulesMelnik.a" />
+					<Add directory="../../prj" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -36,15 +39,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="../ModulesMelnik" />
 		</Compiler>
-		<ResourceCompiler>
-			<Add directory="../ModulesMelnik" />
-		</ResourceCompiler>
 		<Linker>
 			<Add library="../ModulesMelnik/bin/Debug/libModulesMelnik.a" />
 		</Linker>
-		<Unit filename="../ModulesMelnik/ModulesMelnik.h" />
+		<Unit filename="../ModulesMelnik.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

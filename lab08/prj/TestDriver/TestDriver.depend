@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1645871160 source:d:\projects\nazarevskyi-maksym-ki-21-1-\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<clocale>
+	"ModulesNazarevskyi.h"
+
+1645615637 d:\projects\nazarevskyi-maksym-ki-21-1-\lab08\prj\modulesnazarevskyi\modulesnazarevskyi.h
+	<cmath>
+
+1645879219 source:d:\.git\melnyk-anna-ki-21-2\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<clocale>
+	"ModulesNazarevskyi.h"
+
+1645615637 d:\.git\melnyk-anna-ki-21-2\prj\modulesnazarevskyi\modulesnazarevskyi.h
+	<cmath>
+
+1647444946 source:d:\.git\melnyk-anna-ki-21-2\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	<clocale>
+	<math.h>
+	"../ModulesMelnik.h"
+
+1647442889 d:\.git\melnyk-anna-ki-21-2\lab08\prj\modulesmelnik.h
+
