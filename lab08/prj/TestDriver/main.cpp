@@ -18,13 +18,15 @@ int main()
     {
         if (round(s_calculation(x[i], z[i])*10000)/10000.0 == expectedResult [i])
         {
-            cout << s_calculation(x[i],  z[i]) << " = " << expectedResult[i] << endl;
-            cout << "Результат: #[" << i + 1 << "] PASSED\n";
+            cout <<"Результат: "<< s_calculation(x[i],  z[i]) <<endl;
+            cout << "Очiкуваний результат: " << expectedResult[i] << endl;
+            cout << "Результат: [" << i + 1 << "] PASSED\n";
         }
         else
         {
-            cout << s_calculation(x[i], z[i]) << " = " << expectedResult[i] << endl;
-            cout << "Результат: #[" << i + 1 << "] FAILED\n";
+            cout <<"Результат: "<< s_calculation(x[i], z[i]) <<endl;
+            cout <<"Очiкуваний результат: " << expectedResult[i] << endl;
+            cout << "Результат: [" << i + 1 << "] FAILED\n";
         }
     }
     _getch();
