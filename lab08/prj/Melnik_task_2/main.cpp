@@ -11,10 +11,10 @@ void res ()
 {
     int  a = 0,b = 0;
     if (a + 3 <= b){
-        cout <<"False"<<endl;
+        cout <<"true"<<endl;
     }
     else {
-        cout <<"True"<<endl;
+        cout <<"false"<<endl;
     }
 
 }
