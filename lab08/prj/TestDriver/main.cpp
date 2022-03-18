@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    char *locale = setlocale(LC_ALL, "ukr");
+    system("chcp 866 && cls");
     float x[5] = { 1, 9, 7, 8, 10};
     float z[5] = { 8, 5, 1, 2, 5};
 
@@ -18,15 +18,15 @@ int main()
     {
         if (round(s_calculation(x[i], z[i])*10000)/10000.0 == expectedResult [i])
         {
-            cout <<"Ðåçóëüòàò: "<< s_calculation(x[i],  z[i]) <<endl;
-            cout << "Î÷iêóâàíèé ðåçóëüòàò: " << expectedResult[i] << endl;
-            cout << "Ðåçóëüòàò: [" << i + 1 << "] PASSED\n";
+            cout <<"Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: "<< s_calculation(x[i],  z[i]) <<endl;
+            cout << "ÐžÑ‡iÐºÑƒÐ²Ð°Ð½Ð¸Ð¹ Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << expectedResult[i] << endl;
+            cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: [" << i + 1 << "] PASSED\n";
         }
         else
         {
-            cout <<"Ðåçóëüòàò: "<< s_calculation(x[i], z[i]) <<endl;
-            cout <<"Î÷iêóâàíèé ðåçóëüòàò: " << expectedResult[i] << endl;
-            cout << "Ðåçóëüòàò: [" << i + 1 << "] FAILED\n";
+            cout <<"Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: "<< s_calculation(x[i], z[i]) <<endl;
+            cout <<"ÐžÑ‡iÐºÑƒÐ²Ð°Ð½Ð¸Ð¹ Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << expectedResult[i] << endl;
+            cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: [" << i + 1 << "] FAILED\n";
         }
     }
     _getch();
