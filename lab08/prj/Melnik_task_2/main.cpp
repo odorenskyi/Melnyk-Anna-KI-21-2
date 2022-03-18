@@ -5,7 +5,7 @@ using namespace std;
 
 void copyright()
 {
-    cout << "© Ìåëüíèê Àííà" << endl << endl;
+    cout << "Â© ÐœÐµÐ»ÑŒÐ½Ð¸Ðº ÐÐ½Ð½Ð°" << endl << endl;
 }
 void res ()
 {
@@ -19,30 +19,30 @@ void res ()
 
 }
 void DecAndHex(int x, int y, int z){
-    cout << "'y' â äåñÿòêîâ³é: " << x << endl
-         << "'x' â äåñÿòêîâ³é: " << y << endl
-         << "'z' â äåñÿòêîâ³é: " << z << endl << endl;
+    cout << "'y' Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << x << endl
+         << "'x' Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << y << endl
+         << "'z' Ð² Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << z << endl << endl;
 
-    cout << "'y' â ø³ñòíàöÿòêîâ³é: " << hex << x << endl
-         << "'x' â ø³ñòíàöÿòêîâ³é: " << hex << y << endl
-         << "'z' â ø³ñòíàöÿòêîâ³é: " << hex << z << endl;
+    cout << "'y' Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << x << endl
+         << "'x' Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << y << endl
+         << "'z' Ð² ÑˆÑ–ÑÑ‚Ð½Ð°Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << z << endl;
 }
 
 int main()
 {
-    system("chcp 1251 && cls");
+    system("chcp 866 && cls");
     copyright();
     int x = 0,y = 0,z = 0;
     int  a = 0,b = 0;
-    cout << "Ââåä³òü x" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ x" << endl;
     cin >> x;
-    cout << "Ââåä³òü y" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ y" << endl;
     cin >> y;
-    cout << "Ââåä³òü z" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ z" << endl;
     cin >> z;
-    cout << "Ââåä³òü a" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ a" << endl;
     cin >> a ;
-    cout << "Ââåä³òü b" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ b" << endl;
     cin >> b;
     cout <<"S= "<< s_calculation(x,y)<< endl;
     res();
