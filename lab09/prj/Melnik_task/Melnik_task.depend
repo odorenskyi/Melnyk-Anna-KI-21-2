@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1647786614 source:d:\.git\melnyk-anna-ki-21-2\lab09\prj\melnik_task\main.cpp
+	<iostream>
+	<math.h>
+	"ModulesMelnik.h"
+
+1647794402 d:\.git\melnyk-anna-ki-21-2\lab09\prj\modulesmelnik.h
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1647500455 source:d:\.git\melnyk-anna-ki-21-2\lab08\prj\modulesmelnik\main.cpp
+	<iostream>
+	<math.h>
+	<tgmath.h>
+	<windows.h>
+	<string>
+
+1647793713 source:d:\.git\melnyk-anna-ki-21-2\lab09\prj\modulesmelnik\main.cpp
+	<iostream>
+	<math.h>
+	<tgmath.h>
+	<windows.h>
+	<string>
+	<bitset>
+
