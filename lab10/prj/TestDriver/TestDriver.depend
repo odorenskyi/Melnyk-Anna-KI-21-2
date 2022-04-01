@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1648800916 source:d:\.git\melnyk-anna-ki-21-2\lab10\prj\testdriver\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstring>
+	<math.h>
+	<tgmath.h>
+	<windows.h>
+	<string>
+	<bitset>
+	"ModulesMelnik.h"
+
+1648797779 d:\.git\melnyk-anna-ki-21-2\lab10\prj\modulesmelnik.h
+	<string>
+

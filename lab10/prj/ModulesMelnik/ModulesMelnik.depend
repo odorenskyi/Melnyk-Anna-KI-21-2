@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1648789944 source:d:\.git\melnyk-anna-ki-21-2\lab10\prj\modulesmelnik\main.cpp
+	<iostream>
+	<fstream>
+	<time.h>
+	<cstring>
+	<math.h>
+	<tgmath.h>
+	<windows.h>
+	<string>
+	<bitset>
+	<fstream>
+
