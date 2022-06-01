@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1654111030 source:d:\gitlab\melnyk-anna-ki-21-2\lab12\prj\teacher\main.cpp
+	"HelperFuctions.h"
+
+1654105020 d:\gitlab\melnyk-anna-ki-21-2\lab12\prj\helperfuctions.h
+	"ModulesMelnyk.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1654105024 d:\gitlab\melnyk-anna-ki-21-2\lab12\prj\modulesmelnyk.h
+
